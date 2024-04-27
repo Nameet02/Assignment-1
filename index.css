@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* <!--===> Navigation Bar <===--> */
+nav {
+  background-color: rgb(255, 113, 113);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 0px;
+  width: auto;
+}
+nav .navBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  /* border: 2px solid red; */
+}
+nav .navBox li {
+  list-style: none;
+}
+
+nav .navBox li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+
+nav .menu-bar {
+  height: 2.5rem;
+}
+nav .menu-bar img {
+  height: 100%;
+}
