@@ -37,3 +37,58 @@ nav .menu-bar {
 nav .menu-bar img {
   height: 100%;
 }
+
+/* <!--===> landing page<===--> */
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 247, 173),
+    rgb(255, 176, 242)
+  );
+  /* border: 2px solid red; */
+}
+
+.landing .landingChild1 {
+  flex: 1;
+  text-align: left;
+}
+
+.landing .landingChild1 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+  margin-left: 60px;
+}
+
+.landing .landingChild1 p {
+  font-size: 1.2rem;
+  margin-left: 60px;
+  margin-bottom: 100px;
+  width: 80vh;
+}
+
+.landing .landingChild1 button {
+  margin-left: 60px;
+  background-color: rgb(255, 113, 113);
+  color: white;
+  border: none;
+  padding: 15px 60px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.landing .landingChild2 {
+  flex: 1;
+  overflow: hidden;
+}
+
+.landing .landingChild2 img {
+  width: 160%;
+  transform: translateX(-250px);
+}
