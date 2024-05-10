@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* <!--===> Navigation Bar <===--> */
 nav {
   background-color: rgb(255, 113, 113);
@@ -81,7 +85,7 @@ nav .menu-bar img {
   border: none;
   padding: 15px 60px;
   font-size: 0.9rem;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 
 .landing .landingChild2 {
@@ -172,6 +176,7 @@ nav .menu-bar img {
 .sec2_contain ul {
   display: flex;
   align-items: center;
+  cursor: pointer;
   /* justify-content: space-evenly; */
 }
 .sec2_contain ul li {
